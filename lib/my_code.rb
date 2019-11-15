@@ -40,7 +40,7 @@ end
 def reduce_to_total(source_array, starting_point)
   counter = 0 
   sum = starting_point
-  
+  while counter < 
   total = [source_array]
   start_point = starting_point
   
