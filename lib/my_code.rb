@@ -43,11 +43,8 @@ def reduce_to_total(source_array, starting_point)
   while counter < source_array.length do 
     sum = source_array[counter] + sum 
     counter += 1 
-    
-  total = [source_array]
-  start_point = starting_point
-  
-  return total[starting_point]
+  end
+  return sum 
 end 
 
 
