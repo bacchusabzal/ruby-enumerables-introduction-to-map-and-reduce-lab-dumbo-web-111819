@@ -39,7 +39,7 @@ end
 
 def reduce_to_total(source_array, starting_point)
   # total = []
-  return source_array = starting_point
+  return (source_array, starting_point)
   
   
 end 
